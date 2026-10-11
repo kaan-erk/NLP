@@ -1,7 +1,13 @@
 # ELİF KAYAALP-220901610
+**GitHub :** elifkylpp
+**MY CONTRİBUTİON :** compare_models.py
 
 
-**My primary task in the project was to write the `compare_models.py` file, which aggregates and compares the results of the classical machine learning and BERT models we trained.**
+**My primary task in the project was to write the `compare_models.py` file, which aggregates and compares the results of the classical machine learning and BERT models we trained.** Since our project utilized different architectures ranging from Classical ML to BERT, the code I wrote (compare_models.py file) acts as the main integration hub that brings all these separate result files together.
+
+**Role in the Project:** Model Integration, Performance Analysis, and Data Visualization (Pipeline Development & Evaluation) 
+
+
 
 **What I accomplished with the code in the project:**
 
@@ -12,7 +18,8 @@
 *   Additionally, I included a step in the code to create a folder named `overall_comparison` to keep all outputs organized.
 
 
-  **Key Insights & Findings ;**
+
+  **Key Insights & Findings :**
 
 **Transformer Superiority:** DistilBERT achieved the highest performance (98.99% Accuracy / F1). Self-attention mechanisms capture cross-word dependencies and nuanced context that bag-of-words methods cannot encode.
 
