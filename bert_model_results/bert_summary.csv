@@ -1,0 +1,2 @@
+﻿Model,Method,Accuracy,F1_Score
+BERT (DistilBERT),Contextual Embedding (Transformer),0.9912,0.9912

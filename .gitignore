@@ -1,0 +1,15 @@
+# Heavy Deep Learning Model Weights (GitHub blocks files > 100 MB)
+bert_model_results/model/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.joblib
+
+# Python cache & virtual environments
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/

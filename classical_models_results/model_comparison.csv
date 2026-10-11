@@ -1,0 +1,5 @@
+﻿Model,Method,Accuracy,F1_Score
+Linear SVM,"TF-IDF (1,2-gram)",0.9736,0.9735
+Naive Bayes,"TF-IDF (1,2-gram)",0.9723,0.9723
+Logistic Regression,"TF-IDF (1,2-gram)",0.9686,0.9685
+Random Forest,"TF-IDF (1,2-gram)",0.9484,0.9485

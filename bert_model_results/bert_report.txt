@@ -1,0 +1,25 @@
+==================================================
+DEEP LEARNING / TRANSFORMER MODEL: BERT (DISTILBERT)
+==================================================
+Categories : Finance, Politics, Sport, Weather
+Accuracy   : 99.12%
+F1-Score   : 99.12%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     Finance       0.99      0.98      0.99       199
+    Politics       0.98      0.99      0.99       198
+       Sport       0.99      0.99      0.99       199
+     Weather       0.99      0.99      0.99       199
+
+    accuracy                           0.99       795
+   macro avg       0.99      0.99      0.99       795
+weighted avg       0.99      0.99      0.99       795
+
+
+Confusion Matrix (Numerical):
+[[196   3   0   0]
+ [  2 196   0   0]
+ [  0   0 198   1]
+ [  0   0   1 198]]
