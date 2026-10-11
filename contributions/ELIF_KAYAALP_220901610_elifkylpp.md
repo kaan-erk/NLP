@@ -10,3 +10,10 @@
 * **Visualization:** Using the Matplotlib library, I generated a bar chart that allows for a simultaneous view of the Accuracy and F1 scores of all models.
 * **Automated Reporting:** I implemented functionality that automatically selects the model with the highest score upon execution and generates a text file named `FINAL_EVALUATION_REPORT.txt`.
 *   Additionally, I included a step in the code to create a folder named `overall_comparison` to keep all outputs organized.
+
+
+  **Key Insights & Findings ;**
+
+**Transformer Superiority:** DistilBERT achieved the highest performance (98.99% Accuracy / F1). Self-attention mechanisms capture cross-word dependencies and nuanced context that bag-of-words methods cannot encode.
+**High Efficiency of Linear SVM & Naive Bayes:** Linear SVM reached 97.36% Accuracy, trailing the deep transformer by only ~1.6% while training in under a second. News headlines naturally exhibit high vocabulary specificity per domain (e.g., dividend, typhoon, midterms, quarterback), making TF-IDF weighted linear decision boundaries exceptionally strong baselines.
+**Random Forest Behavior:** Random Forest performed lowest among tested models (94.84%) due to high sparsity and orthogonality in the 5,000-dimensional TF-IDF space.
