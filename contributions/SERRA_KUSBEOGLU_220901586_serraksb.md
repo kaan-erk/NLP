@@ -1,8 +1,11 @@
 Team Member Contribution Report
 
 Name: Serra Küsbeoğlu 
+
 Student ID: 220901586 
+
 GitHub Username: serraksb
+
 Primary Module / File: preprocess.py
 
 
